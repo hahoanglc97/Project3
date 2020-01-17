@@ -1,0 +1,99 @@
+.btn-icon {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    outline: none;
+}
+#ui-datepicker-div{
+    background-color: #FFFFFF;
+}
+
+.btn-icon:hover {
+    background: #ff4348;
+    color:#ffffff
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/*tr:nth-child(even) {*/
+/*    background-color: #dddddd;*/
+/*}*/
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.input-import-date, .input-out-date{
+    text-align: center;
+}
+
+.add-row{
+    position: relative;
+    height: 3em;
+}
+
+.button-new-row{
+    position: absolute;
+    right:0;
+    margin-top: 0.5em;
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+}
+
+.button-new-row:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+.button-new-row:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}

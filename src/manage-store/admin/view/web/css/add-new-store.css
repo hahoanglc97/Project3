@@ -1,0 +1,14 @@
+.error-message.manage-store{
+    margin: -1em 0 0 0;
+    padding: 0 0 0 1em;
+    background-color: #f1e8c7;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 93.5%;
+}
+.active{
+    display: block;
+}
+.none-active{
+    display: none;
+}
