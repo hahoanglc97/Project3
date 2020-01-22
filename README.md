@@ -25,4 +25,15 @@
   
 ***
 ### Hướng dẫn sử dụng chi tiết 
+   ##### - Mục ***Manage Store*** có:
+      * Store: Mục quản lý/chỉnh sửa các kho được tạo
+      * Add New Store: Thêm một kho mới
+   ##### - Thêm một kho mới
+      ##### Gồm có 2 mục chính là
+         * Setting Info: nơi chứa các thông tin cơ bản của kho như: tên, địa chỉ, số điện thoại,...
+         * Product Assign: Chứ thông tin về ngày nhập hàng, ngày hết hạn và số lượng của từng sản phẩm có trong kho.
+   ##### - Gán sản phẩm cho một kho trong Order 
+      ##### 1) Mục ***List Store*** chọn kho có chứa sản phẩm
+      ##### 2) Ấn button ***Asign*** và hiển một popup điền số lượng sản phẩm muốn gán cho kho.
+      ##### Sau khi ấn lưu Order thì xem lại thông tin tại mục ***Custom Fields*** > mục ***qty-assign-store***
   
